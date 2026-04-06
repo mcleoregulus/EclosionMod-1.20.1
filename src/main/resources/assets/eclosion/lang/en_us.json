@@ -1,5 +1,7 @@
 {
   "item.eclosion.ice_ether": "Ice Ether",
-  "item.eclosion.raw_ice_ether": "Raw Ice Ether",
-  "item.eclosion.material.cardboard": "Cardboard"
+  "item.eclosion.inspiration": "Inspiration",
+  "item.eclosion.material.cardboard": "Cardboard",
+
+  "itemGroup.eclosion": "Eclosion"
 }
