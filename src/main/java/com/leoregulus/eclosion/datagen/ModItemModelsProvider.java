@@ -17,5 +17,9 @@ public class ModItemModelsProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_ICE_ETHER.get());
         basicItem(ModItems.INSPIRATION.get());
 //        basicItem(ModItems.CARDBOARD.get());
+
+        basicItem(ModItems.CORN.get());
+        basicItem(ModItems.STRAWBERRY.get());
+        basicItem(ModItems.CHEESE.get());
     }
 }
