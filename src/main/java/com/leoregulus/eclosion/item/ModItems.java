@@ -1,6 +1,7 @@
 package com.leoregulus.eclosion.item;
 
 import com.leoregulus.eclosion.Eclosion;
+import com.leoregulus.eclosion.item.custom.ModFuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +27,9 @@ public class ModItems {
             ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> CHEESE =
             ITEMS.register("cheese", () -> new Item(new Item.Properties().food(ModFoods.CHEESE)));
+
+    public static final RegistryObject<Item> ANTHRACITE =
+            ITEMS.register("anthracite", () -> new ModFuelItem(new Item.Properties(), 1600));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
