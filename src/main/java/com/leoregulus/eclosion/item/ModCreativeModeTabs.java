@@ -14,14 +14,16 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Eclosion.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB =
+    public static final RegistryObject<CreativeModeTab> ECLOSION =
             CREATIVE_MODE_TABS.register("eclosion", () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.ICE_ETHER.get()))
                     .title(Component.translatable("itemGroup.eclosion"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ICE_ETHER.get());
-                        pOutput.accept(ModItems.INSPIRATION.get());
+                        pOutput.accept(ModItems.RAW_ICE_ETHER.get());
                         pOutput.accept(ModItems.CARDBOARD.get());
+                        pOutput.accept(ModItems.INSPIRATION.get());
+
                         pOutput.accept(ModBlocks.ICE_ETHER_BLOCK.get());
                         pOutput.accept(ModBlocks.ICE_ETHER_ORE.get());
                         pOutput.accept(ModBlocks.RAW_ICE_ETHER_BLOCK.get());
