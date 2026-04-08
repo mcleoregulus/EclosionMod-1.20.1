@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-08T11:50:04.3640014	Item Models: eclosion
+// 1.20.1	2026-04-08T12:08:55.4205642	Item Models: eclosion
 a913a5694c74fd4b2b9c02d056d3bc26efb79123 assets/eclosion/models/item/anthracite.json
 7db22938803ecfc88bd2de67caf025eca745764a assets/eclosion/models/item/cheese.json
 9f3397e8f29cd203ca5ef929fcd89d3d779e3ebe assets/eclosion/models/item/corn.json
@@ -13,6 +13,7 @@ d58e336dd1c820e68eec61912e07a7e336cfbca1 assets/eclosion/models/item/ice_ether_d
 18b78941751f0e81a1acefcc8134fdea9c3d4544 assets/eclosion/models/item/ice_ether_fence.json
 4468022d0d509a6b7a1355e177757f9acff6f04f assets/eclosion/models/item/ice_ether_wall.json
 ee2ae694e5878b9680c44a86db00bb98d2493b54 assets/eclosion/models/item/inspiration.json
+b33856e99d181358a5cca27833470078e6947555 assets/eclosion/models/item/pickaxe_axe_item.json
 b3d1fd12a6fefe49ff7ca5ee2effbbdf58318375 assets/eclosion/models/item/prospector.json
 846dd003a7a55e1cbb723f5260799a6cad590e2e assets/eclosion/models/item/raw_ice_ether.json
 53c0f07539253bf4148efac4785094d95ba93f85 assets/eclosion/models/item/strawberry.json

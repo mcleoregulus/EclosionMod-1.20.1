@@ -1,33 +1,33 @@
-[084月2026 11:49:54.304] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\轩辕十四\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, eclosion, --all, --output, E:\Minecraft\EclosionMod\src\generated\resources, --existing, E:\Minecraft\EclosionMod\src\main\resources]
-[084月2026 11:49:54.310] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[084月2026 11:49:54.487] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[084月2026 11:49:54.560] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/轩辕十四/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[084月2026 11:49:54.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[084月2026 11:49:55.009] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[084月2026 11:49:55.020] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[084月2026 11:49:55.033] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[084月2026 11:49:55.205] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[084月2026 11:49:56.915] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\轩辕十四\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, eclosion, --all, --output, E:\Minecraft\EclosionMod\src\generated\resources, --existing, E:\Minecraft\EclosionMod\src\main\resources]
-[084月2026 11:49:57.402] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [eclosion]
-[084月2026 11:50:03.146] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[084月2026 11:50:03.152] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[084月2026 11:50:03.680] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/轩辕十四/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[084月2026 11:50:03.681] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/轩辕十四/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[084月2026 11:50:03.924] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[084月2026 11:50:03.972] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 51 ms
-[084月2026 11:50:03.972] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[084月2026 11:50:04.036] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 59 ms
-[084月2026 11:50:04.036] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id eclosion
-[084月2026 11:50:04.137] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id eclosion finished after 100 ms
-[084月2026 11:50:04.137] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id eclosion
-[084月2026 11:50:04.139] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id eclosion finished after 2 ms
-[084月2026 11:50:04.139] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: eclosion
-[084月2026 11:50:04.341] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: eclosion finished after 201 ms
-[084月2026 11:50:04.341] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: eclosion
-[084月2026 11:50:04.356] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: eclosion finished after 14 ms
-[084月2026 11:50:04.356] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
-[084月2026 11:50:04.360] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 3 ms
-[084月2026 11:50:04.360] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: zh_cn
-[084月2026 11:50:04.360] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: zh_cn finished after 0 ms
-[084月2026 11:50:04.360] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 437 ms
-[084月2026 11:50:04.379] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 105, old count: 100, new count: 106, removed stale: 0, written: 6
+[084月2026 12:08:45.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\轩辕十四\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, eclosion, --all, --output, E:\Minecraft\EclosionMod\src\generated\resources, --existing, E:\Minecraft\EclosionMod\src\main\resources]
+[084月2026 12:08:45.019] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[084月2026 12:08:45.195] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[084月2026 12:08:45.269] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/轩辕十四/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[084月2026 12:08:45.718] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[084月2026 12:08:45.726] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[084月2026 12:08:45.738] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[084月2026 12:08:45.748] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\轩辕十四\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[084月2026 12:08:45.915] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[084月2026 12:08:47.561] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\轩辕十四\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, eclosion, --all, --output, E:\Minecraft\EclosionMod\src\generated\resources, --existing, E:\Minecraft\EclosionMod\src\main\resources]
+[084月2026 12:08:48.086] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [eclosion]
+[084月2026 12:08:54.233] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[084月2026 12:08:54.239] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[084月2026 12:08:54.760] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/轩辕十四/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[084月2026 12:08:54.761] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/轩辕十四/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[084月2026 12:08:54.960] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[084月2026 12:08:55.040] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 78 ms
+[084月2026 12:08:55.040] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[084月2026 12:08:55.104] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 63 ms
+[084月2026 12:08:55.104] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id eclosion
+[084月2026 12:08:55.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id eclosion finished after 92 ms
+[084月2026 12:08:55.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id eclosion
+[084月2026 12:08:55.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id eclosion finished after 2 ms
+[084月2026 12:08:55.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: eclosion
+[084月2026 12:08:55.395] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: eclosion finished after 200 ms
+[084月2026 12:08:55.395] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: eclosion
+[084月2026 12:08:55.413] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: eclosion finished after 13 ms
+[084月2026 12:08:55.413] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[084月2026 12:08:55.417] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 3 ms
+[084月2026 12:08:55.417] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: zh_cn
+[084月2026 12:08:55.417] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: zh_cn finished after 0 ms
+[084月2026 12:08:55.417] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 457 ms
+[084月2026 12:08:55.438] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 107, old count: 105, new count: 108, removed stale: 0, written: 3

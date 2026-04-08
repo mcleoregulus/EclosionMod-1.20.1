@@ -1,5 +1,6 @@
-// 1.20.1	2026-04-08T11:27:22.5241425	Tags for minecraft:block mod id eclosion
+// 1.20.1	2026-04-08T12:08:55.4257063	Tags for minecraft:block mod id eclosion
 6629a9472a928a0ef70bbd95fd2ed2fcc5f02ded data/eclosion/tags/blocks/ore_tags.json
+f3e660e89a1134f382a8b3f42bce0dc91d88fe6d data/forge/tags/blocks/tools/pickaxe_axe_mineable.json
 933f051a3c4caa447afdc09a6e24e83a1663150d data/minecraft/tags/blocks/fences.json
 64e0abd5fd1cfa061107f47c06b3402ef3eb408b data/minecraft/tags/blocks/fence_gates.json
 7191fc68b444fa0921533dc29120d195a387836b data/minecraft/tags/blocks/mineable/pickaxe.json

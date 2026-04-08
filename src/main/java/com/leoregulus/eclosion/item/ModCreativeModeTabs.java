@@ -51,6 +51,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FIRE_ETHER_AXE.get());
                         pOutput.accept(ModItems.FIRE_ETHER_HOE.get());
 
+                        pOutput.accept(ModItems.PICKAXE_AXE_ITEM.get());
+
                     }).build());
 
 //    public static final RegistryObject<CreativeModeTab> MATERIAL =
