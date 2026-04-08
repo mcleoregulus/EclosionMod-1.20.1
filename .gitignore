@@ -6,6 +6,7 @@ bin
 .classpath
 .project
 .cache
+*.gz
 
 # idea
 out
@@ -17,11 +18,11 @@ out
 # gradle
 build
 .gradle
+run-data
 
 # other
 eclipse
 run
-run-data
 
 # Files from Forge MDK
 forge*changelog.txt
