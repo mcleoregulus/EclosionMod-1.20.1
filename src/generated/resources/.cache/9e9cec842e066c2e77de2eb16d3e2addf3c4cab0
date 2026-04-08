@@ -1,4 +1,5 @@
-// 1.20.1	2026-04-08T14:04:35.2796439	Block States: eclosion
+// 1.20.1	2026-04-08T19:26:08.7041032	Block States: eclosion
+d65a3ac273d09bf9c1762e0ec0ddb4def41cfa6c assets/eclosion/blockstates/corn_crop.json
 c41fe59957e5830493c82ee82c60ea9d8d6e28bc assets/eclosion/blockstates/ice_ether_block.json
 de6501778bb5034dabae04beed21c7c75d667604 assets/eclosion/blockstates/ice_ether_button.json
 f00cedfccdcf0e529fcc9d08919e540ae7a4f0bf assets/eclosion/blockstates/ice_ether_door.json
@@ -12,6 +13,15 @@ d8d86ac8ca3423ce63798dd7bfe2b1b697b3ca6f assets/eclosion/blockstates/ice_ether_t
 ac30bd730d34e88de017102f89c3728dbb1988b8 assets/eclosion/blockstates/ice_ether_wall.json
 bf170c4bc4b42a4e0658110f062366f0e8c090a2 assets/eclosion/blockstates/raw_ice_ether_block.json
 21ad736852bba963b683fd6f751cf126c391ada7 assets/eclosion/blockstates/strawberry_crop.json
+c1b5583c9f02e04ad111ae6a975902a9e962603d assets/eclosion/models/block/corn_crop_stage0.json
+3f2c60fd97e6f8d8f0305e0afa3eb141c6c20fa0 assets/eclosion/models/block/corn_crop_stage1.json
+49b977eb86eaaecce15d63b046e5b91e99ebe003 assets/eclosion/models/block/corn_crop_stage2.json
+c7d15e2925e7da0c679af017872f012ceba2fa2f assets/eclosion/models/block/corn_crop_stage3.json
+25b2454dc0029fad97cfa0d62ce6819a1c2bf4ed assets/eclosion/models/block/corn_crop_stage4.json
+999205652e857ded6d5b01da7a619c5b5b02f4dc assets/eclosion/models/block/corn_crop_stage5.json
+54d64831479fabb850fdb88c8be21dc7eb3af0e3 assets/eclosion/models/block/corn_crop_stage6.json
+4c11bc73db023a13d79daee969bc9f7bdba1f077 assets/eclosion/models/block/corn_crop_stage7.json
+ad0dfef93a2c04e10c621ba70a4540c62c70910a assets/eclosion/models/block/corn_crop_stage8.json
 340efe956873f156354df50d2a38367df0dfdaf1 assets/eclosion/models/block/ice_ether_block.json
 8390180d1496ef34feccdd3e50d065e5a5579a7d assets/eclosion/models/block/ice_ether_button.json
 26a4e48e7cf28a4b2a0bcd87af1c58389ad0346a assets/eclosion/models/block/ice_ether_button_pressed.json

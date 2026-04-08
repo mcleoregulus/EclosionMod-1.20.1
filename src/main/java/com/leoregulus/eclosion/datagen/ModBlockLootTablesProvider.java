@@ -1,6 +1,7 @@
 package com.leoregulus.eclosion.datagen;
 
 import com.leoregulus.eclosion.block.ModBlocks;
+import com.leoregulus.eclosion.block.custom.CornCrop;
 import com.leoregulus.eclosion.block.custom.StrawberryCrop;
 import com.leoregulus.eclosion.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
@@ -49,6 +50,11 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCrop.AGE, 5));
         add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(),
                 ModItems.STRAWBERRY.get(), ModItems.STRAWBERRY_SEEDS.get(), builder1));
+
+        LootItemCondition.Builder builder2 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCrop.AGE, 8));
+        add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(),
+                ModItems.CORN.get(), ModItems.CORN.get(), builder2));
     }
     protected LootTable.Builder createCopperOreLikeDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,

@@ -26,7 +26,7 @@ public class ModItems {
             ITEMS.register("inspiration", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CORN =
-            ITEMS.register("corn", () -> new Item(new Item.Properties().food(ModFoods.CORN)));
+            ITEMS.register("corn", () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties().food(ModFoods.CORN)));
     public static final RegistryObject<Item> STRAWBERRY =
             ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> CHEESE =

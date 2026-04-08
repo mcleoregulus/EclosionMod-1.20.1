@@ -2,6 +2,7 @@ package com.leoregulus.eclosion.datagen;
 
 import com.leoregulus.eclosion.Eclosion;
 import com.leoregulus.eclosion.block.ModBlocks;
+import com.leoregulus.eclosion.block.custom.CornCrop;
 import com.leoregulus.eclosion.block.custom.StrawberryCrop;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -46,6 +47,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.ICE_ETHER_TRAPDOOR, "_bottom");
 
         crop(ModBlocks.STRAWBERRY_CROP.get(), "strawberry_crop_stage", StrawberryCrop.AGE);
+        crossCrop(ModBlocks.CORN_CROP.get(), "corn_crop_stage", CornCrop.AGE);
     }
 
     public void crop(CropBlock block, String name, IntegerProperty property) {

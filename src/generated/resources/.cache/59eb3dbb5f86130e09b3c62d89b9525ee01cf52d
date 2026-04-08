@@ -1,4 +1,5 @@
-// 1.20.1	2026-04-08T14:04:35.2835564	Loot Tables
+// 1.20.1	2026-04-08T19:26:08.7081671	Loot Tables
+a9c3329037dedb25b4569517688ed14155288ed0 data/eclosion/loot_tables/blocks/corn_crop.json
 04fea5d3719f6e69917c2ec2b07a9bd6e7904241 data/eclosion/loot_tables/blocks/ice_ether_block.json
 f6d84f8e92e4db59fac3e790e0de8ba1dd7d7732 data/eclosion/loot_tables/blocks/ice_ether_button.json
 fec39c45b5922a695590dad5bc2ee53b4017a9c1 data/eclosion/loot_tables/blocks/ice_ether_door.json
