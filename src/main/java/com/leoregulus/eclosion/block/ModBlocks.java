@@ -65,7 +65,7 @@ public class ModBlocks {
             BLOCKS.register("corn_crop", () -> new CornCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> ANIMATED_BLOCK = BLOCKS.register("animated_block",
-            () -> new AnimatedBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
+            () -> new AnimatedBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
 
 
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
