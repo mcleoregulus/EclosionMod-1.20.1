@@ -2,10 +2,7 @@ package com.leoregulus.eclosion.item;
 
 import com.leoregulus.eclosion.Eclosion;
 import com.leoregulus.eclosion.block.ModBlocks;
-import com.leoregulus.eclosion.item.custom.CustomArmorItem;
-import com.leoregulus.eclosion.item.custom.ModFuelItem;
-import com.leoregulus.eclosion.item.custom.PickaxeAxeItem;
-import com.leoregulus.eclosion.item.custom.ProspectorItem;
+import com.leoregulus.eclosion.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -65,6 +62,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ANIMATED_BLOCK_ITEM = ITEMS.register("animated_block",
+            () -> new AnimatedBlockItem(ModBlocks.ANIMATED_BLOCK.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

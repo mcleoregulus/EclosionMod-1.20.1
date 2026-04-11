@@ -59,6 +59,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ICE_ETHER_BOOTS.get());
 
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        pOutput.accept(ModItems.ANIMATED_BLOCK_ITEM.get());
 
                     }).build());
 

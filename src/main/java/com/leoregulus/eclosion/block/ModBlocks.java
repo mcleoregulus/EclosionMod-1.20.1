@@ -1,9 +1,11 @@
 package com.leoregulus.eclosion.block;
 
 import com.leoregulus.eclosion.Eclosion;
+import com.leoregulus.eclosion.block.custom.AnimatedBlock;
 import com.leoregulus.eclosion.block.custom.CornCrop;
 import com.leoregulus.eclosion.block.custom.StrawberryCrop;
 import com.leoregulus.eclosion.item.ModItems;
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -61,6 +63,10 @@ public class ModBlocks {
             BLOCKS.register("strawberry_crop", () -> new StrawberryCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
     public static final RegistryObject<CornCrop> CORN_CROP =
             BLOCKS.register("corn_crop", () -> new CornCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> ANIMATED_BLOCK = BLOCKS.register("animated_block",
+            () -> new AnimatedBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
+
 
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
