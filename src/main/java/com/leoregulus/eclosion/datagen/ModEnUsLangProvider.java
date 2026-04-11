@@ -57,6 +57,9 @@ public class ModEnUsLangProvider extends LanguageProvider {
 
         add(ModItems.STRAWBERRY_SEEDS.get(), "Strawberry Seeds");
 
+        add(ModBlocks.RESEARCH_TABLE.get(), "Research Table");
+
+
         add("itemGroup.eclosion", "Eclosion");
     }
 }

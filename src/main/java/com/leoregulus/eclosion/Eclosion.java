@@ -1,5 +1,6 @@
 package com.leoregulus.eclosion;
 
+import com.leoregulus.eclosion.block.ModBlockEntities;
 import com.leoregulus.eclosion.block.ModBlocks;
 import com.leoregulus.eclosion.item.ModCreativeModeTabs;
 import com.leoregulus.eclosion.item.ModItems;
@@ -20,6 +21,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Eclosion.MOD_ID)
@@ -32,6 +34,7 @@ public class Eclosion
 
     public Eclosion(FMLJavaModLoadingContext context)
     {
+        GeckoLib.initialize();
         IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
@@ -40,6 +43,8 @@ public class Eclosion
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

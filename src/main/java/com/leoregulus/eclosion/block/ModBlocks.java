@@ -2,6 +2,7 @@ package com.leoregulus.eclosion.block;
 
 import com.leoregulus.eclosion.Eclosion;
 import com.leoregulus.eclosion.block.custom.CornCrop;
+import com.leoregulus.eclosion.block.custom.ResearchTableBlock;
 import com.leoregulus.eclosion.block.custom.StrawberryCrop;
 import com.leoregulus.eclosion.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -61,6 +62,12 @@ public class ModBlocks {
             BLOCKS.register("strawberry_crop", () -> new StrawberryCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
     public static final RegistryObject<CornCrop> CORN_CROP =
             BLOCKS.register("corn_crop", () -> new CornCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
+    public static final RegistryObject<ResearchTableBlock> RESEARCH_TABLE = registerBlock("research_table",
+            () -> new ResearchTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+    public static final RegistryObject<FertilizerBlock> FERTILIZER = BLOCKS.register("fertilizer",
+            FertilizerBlock::new);
+
 
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

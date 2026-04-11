@@ -48,6 +48,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         crop(ModBlocks.STRAWBERRY_CROP.get(), "strawberry_crop_stage", StrawberryCrop.AGE);
         crossCrop(ModBlocks.CORN_CROP.get(), "corn_crop_stage", CornCrop.AGE);
+
+        simpleBlockWithItem(ModBlocks.RESEARCH_TABLE.get(), cubeAll(ModBlocks.RESEARCH_TABLE.get()));
+
     }
 
     public void crop(CropBlock block, String name, IntegerProperty property) {

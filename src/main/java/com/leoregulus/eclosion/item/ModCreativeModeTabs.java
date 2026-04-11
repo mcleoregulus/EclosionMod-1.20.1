@@ -60,6 +60,10 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
 
+                        pOutput.accept(ModBlocks.RESEARCH_TABLE.get());
+                        pOutput.accept(ModBlocks.FERTILIZER.get());
+
+
                     }).build());
 
 //    public static final RegistryObject<CreativeModeTab> MATERIAL =

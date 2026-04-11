@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,is_dummy=false": { "model": "eclosion:block/research_table" },
+    "facing=east,is_dummy=false":  { "model": "eclosion:block/research_table", "y": 90 },
+    "facing=south,is_dummy=false": { "model": "eclosion:block/research_table", "y": 180 },
+    "facing=west,is_dummy=false":  { "model": "eclosion:block/research_table", "y": 270 },
+
+    "facing=north,is_dummy=true":  { "model": "eclosion:block/research_table" },
+    "facing=east,is_dummy=true":   { "model": "eclosion:block/research_table", "y": 90 },
+    "facing=south,is_dummy=true":  { "model": "eclosion:block/research_table", "y": 180 },
+    "facing=west,is_dummy=true":   { "model": "eclosion:block/research_table", "y": 270 }
+  }
+}
