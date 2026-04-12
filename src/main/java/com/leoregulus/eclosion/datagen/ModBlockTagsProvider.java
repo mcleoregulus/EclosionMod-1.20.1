@@ -23,6 +23,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ICE_ETHER_BLOCK.get())
                 .add(ModBlocks.ICE_ETHER_ORE.get());
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.ANIMATED_BLOCK.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ICE_ETHER_ORE.get());
