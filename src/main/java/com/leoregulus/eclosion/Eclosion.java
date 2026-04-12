@@ -1,12 +1,15 @@
 package com.leoregulus.eclosion;
 
 import com.leoregulus.eclosion.block.entity.client.*;
+import com.leoregulus.eclosion.gui.AnimatedBlockScreen;
 import com.leoregulus.eclosion.block.ModBlocks;
 import com.leoregulus.eclosion.block.entity.ModBlockEntities;
+import com.leoregulus.eclosion.gui.ModMenuTypes;
 import com.leoregulus.eclosion.item.ModCreativeModeTabs;
 import com.leoregulus.eclosion.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -46,6 +49,7 @@ public class Eclosion
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModMenuTypes.MENUS.register(modEventBus);
 
         GeckoLib.initialize();
 
@@ -102,6 +106,7 @@ public class Eclosion
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
 //            EntityRenderers.register(ModEntities.TIGER.get(), TigerRenderer::new);
             BlockEntityRenderers.register(ModBlockEntities.ANIMATED_BLOCK_ENTITY.get(), AnimatedBlockRenderer::new);
+            event.enqueueWork(() -> {MenuScreens.register(ModMenuTypes.ANIMATED_BLOCK_MENU.get(), AnimatedBlockScreen::new);});
         }
     }
 }

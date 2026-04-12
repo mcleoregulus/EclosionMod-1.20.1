@@ -18,6 +18,13 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.network.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
 
 public class AnimatedBlock extends HorizontalDirectionalBlock implements EntityBlock {
@@ -99,4 +106,35 @@ public class AnimatedBlock extends HorizontalDirectionalBlock implements EntityB
         }
         return super.updateShape(state, direction, neighborState, level, currentPos, neighborPos);
     }
+    @Override
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        // 确保打开 GUI 的逻辑只在服务器端运行
+        if (!level.isClientSide) {
+            BlockPos mainPos = pos;
+            boolean isDummy = state.getValue(IS_DUMMY);
+
+            // 如果玩家右击的是假方块（透明碰撞箱），我们需要定位回主方块
+            if (isDummy) {
+                Direction facing = state.getValue(FACING);
+                // 在你的设定中，假方块放在逆时针方向，所以主方块在假方块的顺时针方向
+                mainPos = pos.relative(facing.getClockWise());
+            }
+
+            // 获取主方块位置上的 BlockEntity
+            BlockEntity blockEntity = level.getBlockEntity(mainPos);
+
+            // 检查这个 BlockEntity 是否实现了 MenuProvider 接口（也就是是否绑定了菜单）
+            if (blockEntity instanceof MenuProvider) {
+                // 原版标准写法：为玩家打开对应的菜单
+                // player.openMenu((MenuProvider) blockEntity);
+
+                // Forge 推荐写法：支持在打开网络发包时传递额外的位置数据（推荐使用这个）
+                NetworkHooks.openScreen((ServerPlayer) player, (MenuProvider) blockEntity, mainPos);
+            }
+        }
+
+        // 返回 SUCCESS 表示玩家已经成功和方块交互了，这样玩家就不会把手里的方块（比如火把）放在这个方块上
+        return InteractionResult.SUCCESS;
+    }
+
 }
